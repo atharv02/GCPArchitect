@@ -1,23 +1,20 @@
-# Creating a cheatsheet for the GCP Architect exam
 
-Attempting to cover off most of the topics and my personal notes to revise before the exam
+# Main Topics: 
 
-Breaking down into the following main topics
+## [Organization and Hierarchy](./Org/org.md)
 
-## Organization and Hierarchy
-
-## Identity and Access Management
+## [Identity and Access Management](./IAM/iam.md)
 
 ## [Compute](./Compute/compute.md)
 
 ## [Storage](./StorageAndDatabases/storage.md) and [Databases](./StorageAndDatabases/databases.md)
 
-## Security
+## [Security](./Security/security.md)
 
 ## [Networking](./Networking/networking.md) and [Loadbalancers](./Networking/loadbalancers.md)
 
-## Monitoring and Logging
+## [Monitoring](./MonitoringLogging/monitoring.md) and [Logging](./MonitoringLogging/logging.md)
 
-## Big Data and Services
+## [Big Data and Services](./BigData/bigdata.md)
 
 ## Case Studies
