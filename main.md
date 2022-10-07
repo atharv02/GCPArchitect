@@ -8,13 +8,13 @@ Breaking down into the following main topics
 
 ## Identity and Access Management
 
-## [Compute](./Compute/main.md)
+## [Compute](./Compute/compute.md)
 
-## Storage and Databases
+## [Storage](./StorageAndDatabases/storage.md) and [Databases](./StorageAndDatabases/databases.md)
 
 ## Security
 
-## [Networking](./Networking/main.md)
+## [Networking](./Networking/networking.md) and [Loadbalancers](./Networking/loadbalancers.md)
 
 ## Monitoring and Logging
 
