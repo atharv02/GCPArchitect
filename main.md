@@ -17,4 +17,10 @@
 
 ## [Big Data and Services](./BigData/bigdata.md)
 
+## [Migration](./Migration/migration.md)
+
 ## Case Studies
+ - [EHR Healthcare](./CaseStudies/ehr.md)
+ - [Helicopter Racing League](./CaseStudies/hrl.md)
+ - [Mountkirk Games](./CaseStudies/mountkirk.md)
+ - [TerramEarth](./CaseStudies/terramearth.md)

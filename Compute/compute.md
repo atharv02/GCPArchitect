@@ -29,3 +29,10 @@ Google provides a good decision tree for making the right compute choice decisio
 ![Decision Tree](./decisiontree.png)
 
 ---
+
+## Compute options: 
+ - [App Engine](./AppEngine/appengine.md)
+ - [Cloud Functions](./CloudFunctions/cloudfunctions.md)
+ - [Cloud Run](./CloudRun/cloudrun.md)
+ - [Compute Engine](./ComputeEngine/computeengine.md)
+ - [Kubernetes](./Kubernetes/kubernetes.md)
