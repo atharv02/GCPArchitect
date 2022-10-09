@@ -11,3 +11,17 @@ The following diagram shows decision tree for choosing the right database/ stora
 ![Database Decision Tree](./choose-db.png)
 
 ---
+
+## Relational Databases
+
+### Cloud SQL
+
+### Cloud Spanner
+
+### BigQuery
+
+## Non-Relational Databases
+
+### Firestore
+
+### Cloud Bigtable

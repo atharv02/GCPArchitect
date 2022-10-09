@@ -34,7 +34,8 @@ My Experience with the Exam:
  - Sufficient time, though I would recommend *flag for review* where unsure and revisit those questions at the end.
  - Generally 2 options can be eliminated easily, comes down to picking the best of the remaining 2 options
  - Only shows Pass/Fail at the end of the exam. You cannot tell how well you did. 
+ - Cloud IoT Core service has been deprecated and is not part of the exam anymore
 
 Lastly, if you are appearing for the exam, wish you the best of luck
 
-Please feel free to send me a PR. 
+Please feel free to send me a PR for any additions/updates

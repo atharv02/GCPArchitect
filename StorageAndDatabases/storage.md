@@ -4,7 +4,11 @@ GCP storage options based on type of data. *Note: Database options are in [Datab
 
 ## Object Storage
 
----
+### **Google Cloud Storage (GCS)**
+ GCS is a virtually infinite size object storage service and a core concept from the exam perspective.
+
+Notes for the same are at: [Google Cloud Storage](./cloudstorage.md)
+
 
 ## Block Storage
 
@@ -51,4 +55,18 @@ Features
  - Local SSDs are ephemeral in nature. ***Data on local SSD is lost when the instance is stopped or terminated***
  - Offers superior performance, very high IOPS, and very low latency compared to SSD.
  - Each SSD is 375GB, maximum of 24 SSD's can be attached for 9TB per instance
- - Suitable only for temporary storage such as ***caches, processing space/scratch space***
+ - Suitable only for **temporary storage** such as ***caches, processing space/scratch space***
+
+---
+
+## File Storage
+
+### **Cloud Filestore**
+
+Available in three flavours - ***Basic, High Scale and Enterprise***
+
+ - ***Fully managed file servers*** that can be connected to Compute Engine, GKE clusters and on-prem machines. *Note: Filestore does **NOT** provide full access to underlying block storage* 
+ - Capacity can be scaled without downtime
+ - Supports the NFSv3 protocol
+ - Filestore snapshots cann be used for backing up
+ - Basic and High-scale are zonal resources, enterprise filestore instances are regional resources
