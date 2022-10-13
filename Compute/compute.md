@@ -22,7 +22,7 @@ Unfortunately there is no-right answer to this question.
 
 Google provides a good decision tree for making the right compute choice decision. The tree is pretty self-explanatory.
 
-***Note:*** Knowing the ***limitations, deployment options & rollback options*** for each environment is crucial for the exam. 
+***Note:*** Knowing the ***limitations, deployment options & rollback options*** for each compute option is crucial for the exam. 
 
 ---
 

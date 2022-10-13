@@ -50,6 +50,43 @@ Lifecycle rules can be set *at the bucket level*, defined in *JSON or XML* to
 
 ## Security
 
+### **Access Control**
+
+ - Access control for Google Cloud Storage Buckets can be enabled via GCP IAM or Access Control Lists
+
+ - Google recommends using IAM over ACLs
+
+ - IAM permissions follow the GCP hierarchy. Policy can be applied at Organisation, Folder, Project or Individual Bucket level.
+
+*Note: Uniform bucket-level access when enabled on a bucket, ACLs are disabled and only bucket-level IAM permissions grant access to that bucket and the object it contains*
+
+ - Permissions to GCS buckets can be granted to two special groups - *AllAuthenticatedUsers and AllUsers*
+
+*Note:* VPC Service controls can be enabled to limit data exfiltration
+
+ - **V4 Signed URL** can be used to grant time-limited access to a specific Cloud Storage resource
+
+### **Logging**
+
+Audit logs available in following types
+
+ - Admin Activity Audit Logs: 
+    - Enabled by default
+    - Tracks Amin activity e.g. Creating/Deleting Buckets, Modifying ACLs
+
+- Data Access Audit Logs:
+    - Need to be explicitly enabled
+    - Tracks data access e.g. reading/creating objects, reading metadata
+
+### **Encryption**
+
+ - Google encrypts all objects at rest in GCS buckets by default, using AES
+ - Data can also be encrypted server side using
+    - Customer Managed Encryption Keys
+    - Customer Supplied Encryption Keys
+
+ - Data can also be encrypted prior to upload, referred to as *Client Side Encryption*
+
 ---
 
 ## **GSUTIL**
